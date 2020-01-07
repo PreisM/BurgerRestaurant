@@ -29,11 +29,6 @@ $(document).ready(function() {
             $('#back-to-top').removeClass('scrollTop');
         }
     })
-    
-    $("#header, .info").ripples({
-        dropRadius: 1,
-        perturbance: 0.2,
-    });
 
     $('.parent-container').magnificPopup({
         delegate: 'a',
@@ -41,7 +36,6 @@ $(document).ready(function() {
         gallery: {
             enabled: true
         }
-
     });
 
 });
