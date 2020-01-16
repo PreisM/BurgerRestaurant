@@ -1,7 +1,6 @@
-/*yellow  ##E5F230 */
+/*yellow  ##E5F230
 
-
-/* red #BF1B13 */
+red #BF1B13 */
 
 .info {
     background: #E5F230;
@@ -273,6 +272,12 @@ body {
     right: 10%;
     background: #BF1B13;
     padding: 0 0.4rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .special-text {
+        opacity: 0.3
+    }
 }
 
 
