@@ -19,6 +19,7 @@ body {
 
 .info h2 {
     word-spacing: 0.6rem;
+    text-align: center;
 }
 
 .info a {
